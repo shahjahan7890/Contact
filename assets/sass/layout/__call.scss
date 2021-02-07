@@ -1,0 +1,44 @@
+.call-to-action{
+    width: 100%;
+    background-color: #f7f7f7;
+    padding: 100px 0;
+    .content{
+        @include clearfix;
+        .text{
+            width: 75%;
+            float: left;
+            h2{
+                color: $black;
+                font-weight: 300;
+                text-align: center;
+                strong{
+                    font-weight: 600;
+                }
+            }
+            p{
+                font-size: 16px;
+                color: $black-l;
+                text-align: center;
+                padding: 5px 0;;
+            }
+        }
+        .button{
+            width: 20%;
+            float: left;
+            position: relative;
+            a{
+                display: inline-block;
+                padding: 10px 15px;
+                background-color: $black;
+                border-radius: 5px;
+                text-transform: uppercase;
+                color: #fff;
+            }
+            img{
+                position: absolute;
+                top: -40px;
+                right: 0;
+            }
+        }
+    }
+}

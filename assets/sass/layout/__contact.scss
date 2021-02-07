@@ -1,0 +1,140 @@
+.contact{
+    width: 100%;
+    padding: 30px 0;
+    .content{
+        width: 100%;
+        @include clearfix;
+
+        h2{
+            font-size: 30px;
+            font-weight: 300;
+            strong{
+                margin-right: 10px;
+            }
+        }
+        p{
+            color: $black-l;
+            font-size: 14px;
+        }
+        .left{
+            width: 49%;
+            float: left;
+            .form{
+                width: 100%;
+                // float: left;
+                padding: 30px 0;
+                // background-color: #efefef;
+                // h2{
+                //     color: #303030;
+                //     margin-left: 30px;
+                //     font-size: 40px;
+                // }
+                // p{
+                //     color: rgba($color: #000000, $alpha: .7);
+                //     margin-left: 30px;
+                // }
+                form{
+                    width: 500px;
+                    @include clearfix;
+                    // margin-left: 30px;
+                    margin-top: 20px;
+                    input.first{
+                        width: 25%;
+                        float: left;
+                        background-color: #fff;
+                        color: #777777;
+                        border: 1px solid #efefef;
+                        padding: 5px;
+                        border-radius: 5px;
+                    }
+                    input.sec{
+                        width: 65%;
+                        float: left;
+                        margin-left: 6px;
+                        background-color: #fff;
+                        color: #777777;
+                        border: 1px solid #efefef;
+                        padding: 5px;
+                        border-radius: 5px;
+                    }
+                    input.third{
+                        width: 94%;
+                        background-color: #fff;
+                        color: #777777;
+                        border: 1px solid #efefef;
+                        padding: 5px;
+                        border-radius: 5px;
+                        margin-top: 10px;
+                    }
+                    .area{
+                        width: 94%;
+                        background-color: #fff;
+                        color: #777777;
+                        border: 1px solid #efefef;
+                        padding: 5px;
+                        border-radius: 5px;
+                        margin-top: 10px;
+                    }
+                    .btn{
+                        background-color: $primary-color;
+                        color: #fff;
+                        padding: 10px 30px;
+                        border: 1px solid transparent;
+                        border-radius: 20px;
+                        cursor: pointer;
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+        
+        .right{
+            width: 49%;
+            float: left;
+            .second{
+                width: 100%;
+                margin-bottom: 20px;
+                h2{
+                    font-size: 20px;
+                    color: $black;
+                    // text-transform: uppercase;
+                    margin-left: 10px;
+                }
+                p{
+                    color: #909294;
+                    padding: 10px 5px;
+                }
+                ul{
+                    // margin-top: 25px;
+                    li{
+                        @include clearfix;
+                        margin-bottom: 10px;
+                        i{
+                            float: left;
+                            color: $primary-color;
+                            padding: 8px;
+                            margin-top: 5px;border: 1px solid $primary-color;
+                            border-radius: 50%;
+                            font-size: 14px;
+                            line-height: 14px;
+                            text-align: center;
+                            // margin-bottom: 10px;
+                            margin-right: 15px;
+                        }
+                        .fa-clock{
+                            color: $black-l;
+                            border:  none;
+                        }
+                        p{
+                            float: left;
+                            color: #909294;
+                            font-size: 14px;
+                            // line-height: 18px;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
+        }
+    }
